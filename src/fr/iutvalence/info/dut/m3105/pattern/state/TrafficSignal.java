@@ -33,6 +33,16 @@ public class TrafficSignal extends Thread implements TrafficSignalContext, Traff
 				break;
 			}
 		}
+		
+	
+	}
+	public void registerObserver (TSObserver tso)
+	{
+		
+	}
+	public void unRegisterObserver (TSObserver toUnregisterTso)
+	{
+		
 	}
 	
 }
